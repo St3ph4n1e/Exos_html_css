@@ -1,0 +1,24 @@
+
+.button{
+    width: 50%;
+margin: auto;
+margin-top: 15rem;
+border: 1px solid black;
+background-color: yellow;
+}
+h1{
+    text-align: center;
+}
+h1:hover{
+    color: white;
+}
+.button:hover{
+    background-color: red;
+    opacity: 0.5;
+}
+body{
+    background-color: black;
+}
+body:hover{
+    background-color: bisque;
+}
