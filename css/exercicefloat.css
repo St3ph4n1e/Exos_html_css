@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+
+}
+body{
+    text-align: center;
+    color: white;
+}
+.container{
+    width: 649.5px;
+    margin: auto;
+}
+.top{
+    background-color: red;
+    height: 100px;
+   
+}
+.left,.right{
+    background-color: blue;
+    height: 500px;
+    padding: 10px;
+}
+
+div:nth-of-type(2){
+    float: left;
+}
+div:nth-of-type(4){
+    float: right;
+}
+
+.Zs{
+    height: 500px;
+    float: left;
+    width: 420px;
+}
+.Zs p{
+border: 1px solid white;
+}
+.p1,.p2,.p3,.p4,.p5{ 
+    height: 400px;
+    width: 82px;
+    float: left;
+    background-color: greenyellow;
+
+}
+.bas{
+    background-color: yellow;
+    height: 120px;
+    width: 420px;
+    clear: both;
+
+}
